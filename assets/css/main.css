@@ -1,0 +1,89 @@
+.img-wrap img {
+	width: 700px;
+	height: 400px;
+	margin-left: 25px
+}
+.img-thumbnails li {
+	margin-right: 25px;
+}
+.img-thumbnails img {
+	width: 100px;
+	height: 90px;
+}
+.center ul {
+	display: inline-block;
+}
+.center {
+	text-align: center;
+}
+.space {
+	padding: 30px;
+}
+form {
+	width: 400px;
+}
+.form-group textarea {
+	height: 100px;
+}
+
+li {
+	list-style-type: none;
+	padding: 15px 0px 5px;
+}
+cite {
+	font-style:normal;
+}
+.ng-invalid.ng-dirty {
+	border-color: red;
+}
+.ng-valid.ng-dirty {
+	border-color: green;
+}
+#review li label {
+	padding: 15px 60px 15px 15px;
+	display: block;
+	line-height: 1.2;
+	-webkit-transition: color 0.4s;
+	transition: color 0.4s;
+}
+#review li {
+	padding: 10px
+	position: relative;
+	font-size: 24px;
+	border-bottom: 1px dotted #ccc;
+	width: 500px;
+}
+
+#review li:hover .destroy {
+	display: block;
+}
+#review li .destroy {
+	display: none;
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	color: #a88a8a;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+	color: inherit;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+.list-group-item {
+	margin: 27px;
+}
