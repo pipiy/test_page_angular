@@ -1,0 +1,20 @@
+{
+  "name": "test-page-angular",
+  "version": "0.0.1",
+  "description": "test project for angular",
+  "repository": {
+    "type:": "git",
+    "url": "git@github.com:pipiy/test_page_angular.git"
+  },
+  "dependencies": {
+    "gzippo": "~0.2.0",
+    "express": "~3.5.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node web.js"
+  }
+}
